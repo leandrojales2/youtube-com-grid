@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    justify-items: center;
+    
+}
+.left {
+    width: 146px;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.menu {
+    width: 24px;
+    height: 24px;
+}
+.logo {
+    width: 90px;
+    height: 20px;
+    margin-left: 24px;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.caixa-pesquisa {
+    width: 348px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+}
+.lupa {
+    width: 57px;
+    height: 30px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background: #CCCCCC;
+    border: 1px solid #CCCCCC;
+}
+.img-lupa {
+    width: 24px;
+    height: 24px;
+}
+.rigth {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.camera {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+.sino {
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+.foto {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+.barra-menu {
+    width: 270px;
+    gap: 16px;
+}
+.inicio {
+    width: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+    margin-top: 5px;
+}
+.home {
+    width: 24px;
+    height: 24px;
+    margin-top: 24px;
+}
+.p-menu {
+    width: 200px;
+    font-weight: 700; 
+    font-size: 14px;
+    line-height: 16.41px;
+    margin-top: 24px;
+}
+.explorar {
+    width: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+}
+.inscricoes {
+    width: 75px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+}
+.youtube-music {
+    width: 135px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+}
+.curtir {
+    width: 135px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+}
+.clock {
+    width: 135px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+}
+.downloads {
+    width: 135px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+}
+.filmes {
+    width: 135px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+}
+.aprender {
+    width: 135px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+}
+.esportes {
+    width: 135px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    margin-left: 55px;
+}
+.main {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.lista {
+    background-color: #f7f8fc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 24px;
+} 
+.caixa-filmes {
+    width: 282px;
+    height: 262px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+}
+.caixa-img {
+    display: flex;
+    justify-content: center;
+}
+.caixa-img img {
+    width: 250px;
+    height: 140.29px;
+}
+.img-texto {
+    width: 249px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.img-logo {
+    width: 42px;
+
+}
+.logo-texto {
+    width: 42px;
+    height: 42px;
+}
+.texto {
+    width: 197´x;
+    height: 74px;
+}
+.p-texto {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
+    margin-left: 10px;
+}
+.paragrafo {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16.41px;
+    margin: 0 10px 20px 10px;
+}
